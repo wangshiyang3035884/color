@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    margin:0;
+    background: #fff;
+}
+#box{
+    height: 320px;
+    margin: 20px;
+    font-size: 0;
+    line-height: 0;
+}
+#box span, #box input {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    box-sizing:border-box;
+    border:5px solid #fff;
+}
+.box{
+    -webkit-column-count:2;
+}
+.box span, .box input{
+    height: 50%;
+}
+input {
+    -webkit-appearance:none;
+    outline: 0 none;
+    -webkit-tap-highlight-color:none;
+    border-radius: 0;
+}
+#show {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    margin-top: -10px;
+}
+#show input {
+    border: 0 none;
+    background: none;
+    width: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+#timer {
+    display: block;
+    height: 24px;
+    padding: 20px 20px 0;
+    margin-bottom: -10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+#mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 2;
+    color: #fff;
+    font-size: 24px;
+    box-sizing:border-box;
+    padding: 50px;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, .8);
+}
+#mask b {
+    color: red;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+/* 第二关 */
+.box1{
+    -webkit-column-count:3;
+}
+.box1 span,.box1 input {
+    height:30%;
+}
+/* 第三关 */
+.box2 {
+    -webkit-column-count:5;
+}
+.box2 span, .box2 input {
+    height:20%;
+    border-width:5px;
+}
+
+/* 第四关 */
+.box3 {
+    -webkit-column-count:7;
+}
+.box3 span, .box3 input {
+    height:15%;
+    border-width:3px;
+}
+
+/* 第五关 */
+.box4 {
+    -webkit-column-count:7;
+}
+.box4 span, .box4 input {
+    height:12%;
+    border-width:3px;
+}
+
+/* 第六关 */
+.box5 {
+    -webkit-column-count:10;
+}
+.box5 span, .box5 input {
+    height:10%;
+    border-width:3px;
+}
